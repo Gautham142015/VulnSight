@@ -1,5 +1,7 @@
 # VulnSight
 
+**Plan and code handcrafted by Gautham balaji.**
+
 VulnSight is a web vulnerability scanner designed to help you identify and address security weaknesses in your web applications. It provides a foundation for building a comprehensive security testing tool.
 
 ## Features
@@ -22,51 +24,59 @@ The project is organized into two main directories:
 - `backend/`: Contains the Flask application that powers the vulnerability scanner.
 - `frontend/`: Contains the React application that provides the user interface.
 
-## Getting Started
+## Getting Started: How to Execute This Code
 
-To get started with VulnSight, follow these steps:
+To get started with VulnSight, follow these steps in order:
 
 ### Prerequisites
 
-- Python 3.x
-- Node.js and npm
+- **Python 3.x:** Make sure Python is installed on your system.
+- **Node.js and npm:** Make sure Node.js and the npm package manager are installed.
 
-### Installation
+### Step 1: Installation
 
-1. **Clone the repository:**
-   ```
-   git clone https://github.com/your-username/vulnsight.git
-   ```
+First, you need to set up the project and install all the necessary dependencies for both the frontend and backend.
 
-2. **Install backend dependencies:**
-   ```
-   pip install -r backend/requirements.txt
-   ```
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/vulnsight.git
+    cd vulnsight
+    ```
 
-3. **Install frontend dependencies:**
-   ```
-   npm install --prefix frontend
-   ```
+2.  **Install backend dependencies:**
+    ```bash
+    pip install -r backend/requirements.txt
+    ```
 
-### Running the Scanner
+3.  **Install frontend dependencies:**
+    ```bash
+    npm install --prefix frontend
+    ```
 
-1. **Start the backend server:**
-   ```
-   python backend/app.py
-   ```
+### Step 2: Running the Scanner
 
-2. **Start the frontend development server:**
-   ```
-   npm start --prefix frontend
-   ```
+Once the installation is complete, you need to start both the backend and frontend servers.
 
-The application will be available at `http://localhost:3000`.
+1.  **Start the backend server:**
+    Open a new terminal and run the following command:
+    ```bash
+    python backend/app.py
+    ```
+    This will start the Flask server on `http://127.0.0.1:5000`. Keep this terminal running.
 
-## How to Use
+2.  **Start the frontend development server:**
+    Open a **second** terminal and run the following command:
+    ```bash
+    npm start --prefix frontend
+    ```
+    This will start the React development server and automatically open the application in your web browser at `http://localhost:3000`.
 
-1. **Enter the URL** of the web application you want to scan.
-2. **Click the "Scan" button** to start the scanning process.
-3. **View the results** in the dashboard below.
+### Step 3: How to Use the Application
+
+1.  Navigate to `http://localhost:3000` in your browser.
+2.  **Enter the URL** of the web application you want to scan into the input field.
+3.  **Click the "Scan" button** to begin the scanning process.
+4.  **View the results** in the dashboard as they appear.
 
 ## Future Development
 
