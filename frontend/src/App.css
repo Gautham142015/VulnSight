@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.scan-form {
+  margin: 20px;
+}
+
+.scan-form input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.scan-form button {
+  padding: 10px 20px;
+}
+
+.results {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
